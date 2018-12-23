@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PrintMyT-Shirt_Website", ".", "{2D1E8BF0-5B98-48B8-AE76-42FED9F847A5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/PrintMyT-Shirt_Website"
+		Debug.AspNetCompiler.PhysicalPath = "E:\PrintMyT-Shirt_Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PrintMyT-Shirt_Website\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PrintMyT-Shirt_Website"
+		Release.AspNetCompiler.PhysicalPath = "E:\PrintMyT-Shirt_Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PrintMyT-Shirt_Website\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58113"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D1E8BF0-5B98-48B8-AE76-42FED9F847A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1E8BF0-5B98-48B8-AE76-42FED9F847A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

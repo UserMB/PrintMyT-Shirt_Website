@@ -1,0 +1,67 @@
+﻿body {    
+    text-align: center;
+}
+
+#wrapper{
+		clear: both; 
+		margin: 0 auto; 
+		width: 80%;
+		font-size: 90%;
+        height: 647px;
+}
+
+#header {
+    background-color: #a8d70b;
+    
+}
+
+.auto-style5 {
+               padding-bottom:30px;
+               
+
+}
+
+#nav a:hover {
+ background-color:yellow;
+}
+
+#header a:hover {
+ background-color:yellow;
+}
+
+#section {
+ width:70%;
+}
+
+
+#header2 {
+    padding:5px;
+
+}
+
+
+
+#nav {
+    text-align:left;
+    line-height: 30px;
+    background-color: #c0c0c0;
+    width: 200px;
+    float: left;
+    padding: 5px;
+}
+
+#section {
+    
+    float: left;
+    height: 380px;
+    clip: rect(auto, 10px, auto, auto);
+   
+}
+
+#footer {
+    background-color:#fdce04;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}

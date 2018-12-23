@@ -1,0 +1,253 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <title>PrintMyT-Shirt</title>
+    <link rel="stylesheet" type="text/css" href="~/Styles/Stylesheet.css" />
+      
+   
+
+    <style type="text/css">
+        .auto-style8 {
+            margin-left:10%;
+            padding-bottom:1%;
+           
+        }
+        .auto-style12 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: #000000;
+            font-size: large;
+            background-color: #FFFFFF;
+            width: 891px;
+        }
+        .auto-style33 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left:10%;
+        }
+        .auto-style14 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            font-size: medium;
+        }
+        .auto-style15 {
+            width: 891px;
+        }
+        .auto-style16 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            width: 891px;
+        }
+        .auto-style9 {
+            width: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            font-weight: 700;
+            height: 311px;
+            background-color: #FFFFFF;
+        }
+        .auto-style17 {
+            font-size: x-large;
+            font-style: normal;
+        }
+        .auto-style18 {
+            color: #FFFFFF;
+        }
+        .auto-style19 {
+            font-size: x-large;
+            color: #000000;
+            text-align: center;
+        }
+        .auto-style20 {
+            width: 923px;
+            text-align: center;
+            font-size: large;
+            color: #CC0099;
+        }
+        .auto-style21 {
+            width: 923px;
+            height: 23px;
+            text-align: center;
+            font-size: large;
+            color: #CC0099;
+        }
+        .auto-style34 {
+            font-size: x-large;
+            color: #FFFFFF;
+            text-align: center;
+            background-color: #FF3300;
+        }
+        .auto-style35 {
+            text-decoration: none;
+        }
+        #form1 {
+            height: 1053px;
+        }
+    </style>
+   <!--   
+     
+<script language="JavaScript">
+    if (document.images) {
+        image1on = new Image();
+        image1on.src = "einstein4.jpg";
+
+        image1off = new Image();
+        image1off.src = "einstein3.jpg";
+
+    }
+
+    function turnOn(imageName) {
+        if (document.images) {
+            document[imageName].src = eval(imageName + "on.src");
+        }
+    }
+
+    function turnOff(imageName) {
+        if (document.images) {
+            document[imageName].src = eval(imageName + "off.src");
+        }
+    }
+
+
+</script>
+
+    -->
+    
+
+</head>
+    
+
+ 
+ <body>
+   <!--
+<A HREF="URL of linked page" onMouseOver="turnOn('image1')" onMouseOut="turnOff('image1')">
+    <IMG SRC="einstein3.jpg" NAME="image1" BORDER="0"></a>
+    -->
+    <form id="form1" runat="server">
+        
+
+  <div id ="wrapper">
+<div id="header">
+    
+        <table class="auto-style8">
+            <tr>
+                <td style="font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: large; color: #FFFFFF;" class="auto-style15">13/14 Aungier Street Dublin 2, Ireland  Phone 01 4177500</td>
+            </tr>
+            <tr>
+                <td style="font-weight: 700" class="auto-style16"><a href="http://go.microsoft.com/fwlink/?LinkId=245146""><p class="auto-style14">PrintMyT-Shirt@gmail.com</p></a></td>
+            </tr>
+            <tr>
+                <td class="auto-style12"><a href="Register.aspx" class="auto-style35"><span class="auto-style14">Register</span></a></td>
+            </tr>
+            <tr>
+                <td class="auto-style12"><a href="Login.aspx" class="auto-style35"><span class="auto-style14">LogIn</span></a></td>
+            </tr>
+        </table>
+    
+    
+                
+               
+                
+             
+     
+    
+</div>
+
+<div id="header2">
+
+<img src="images/printme.jpg" style="width: 100%; height: 156px;" />
+
+ </div>
+    
+<div id="nav">
+   
+                    
+  <table class="auto-style9" >
+                         <tr>
+                             <td class="auto-style34">
+                                 <h1 class="auto-style17"><a href="default.aspx"  class="auto-style35"><span class="auto-style18">Home</span></a></h1>
+                             </td>
+                         </tr>
+                         <tr>
+                             <td class="auto-style34">
+                                 <h1 class="auto-style17"><a href="About.aspx"  class="auto-style35"><span class="auto-style18">About</span></a></h1>
+                             </td>
+                         </tr>
+                         <tr>
+                             <td class="auto-style34">
+                                 <h1 class="auto-style17"><a href="Product.aspx"  class="auto-style35"><span class="auto-style18">Order</span></a></h1>
+                             </td>
+                         </tr>
+                         <tr>
+                             <td class="auto-style34">
+                                 <h1 class="auto-style17"><a href="FindUs.aspx"  class="auto-style35"><span class="auto-style18">FindUs</span></a></h1>
+                             </td>
+                         </tr>
+                        <tr> 
+                        <td class="auto-style34">
+                                 <h1 class="auto-style17"><a href="MyOrder.aspx" class="auto-style35"><span class="auto-style18">My Order</span></a></h1>
+                             </td>
+                         </tr>
+                           <tr>
+                             <td class="auto-style19">
+                                  <a href="http://www.youtube.com"><img src="images/youTube.JPG" style="width: 129px; height: 54px"/></a></td>
+                         </tr>
+                         <tr>
+                             <td class="auto-style19">
+                                 <a href="https://www.facebook.com"><img src="images/facebook.JPG" style="width: 143px; height: 52px;"/></a></td>
+                         </tr>
+                         <tr>
+                             <td class="auto-style19">
+                                 <a href="https://twitter.com/"><img src="images/twitter.JPG" style="width: 161px; height: 44px;"/></a></td>
+                         </tr>
+                     </table>
+</div>
+
+
+<div id="section">
+    
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+</div>
+
+<div id="footer">
+     <table class="auto-style33">
+         <tr>
+             <td style="font-weight: 700" class="auto-style21">All rights reserved.</td>
+         </tr>
+         <tr>
+             <td style="font-family: Arial, Helvetica, sans-serif; font-weight: 700" class="auto-style20">
+            
+                    &copy; <%: DateTime.Now.Year %> - Print MY T-Shirt
+                </td>
+         </tr>
+         
+         </table>
+
+</div>
+
+   
+   
+     </div> 
+    </form>
+
+  
+  </body>  
+</html>
+
+    
+
+   
+       
+       
+       
+     
+                                                     
+        
+        
+       
+
+       
+
